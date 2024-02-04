@@ -118,7 +118,7 @@ void setup() {
   DDRD |= (1 << stepRight); //sets pin 2 as output  
   DDRD |= (1 << stepLeft); //sets pin 4 as output 
   DDRD |= (1 << dirRight); //sets pin 3 as output  
-  DDRD |= (1 << dirLeft); //sets pin 5 as output                                                      //Configure digital poort 2 as output
+  DDRD |= (1 << dirLeft); //sets pin 5 as output
   
   pinMode(sleepLeft, OUTPUT);
   pinMode(sleepRight, OUTPUT);
